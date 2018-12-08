@@ -22,6 +22,19 @@ a {
     color: #BBB;
 }
 
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 75% !important;
+    }
+    .content .already {
+        margin: 0px !important;
+        font-size: 0.7rem !important;
+    }
+    .content .already a {
+        font-size: 0.7rem !important;
+    }
+}
+
 .content:before {
     content: "";
     position: fixed;
