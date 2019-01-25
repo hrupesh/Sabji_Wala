@@ -128,9 +128,9 @@ a {
     left: 0;
     right: 0;
     width: 540px;
-    height: 580px;
+    height: 600px;
     overflow: none;
-    background-color: rgba(10, 10, 10, 0.61);
+    background-color: rgba(10, 10, 10, 0.911);
     padding: 40px;
     padding-top: 10px;
     margin: auto;
@@ -387,4 +387,8 @@ a {
     text-align: center;
     color: rgb(211, 29, 29);
     font-size: 0.9rem;
+}
+
+#exampleInputPassword1 {
+    margin-bottom: 5px;
 }
